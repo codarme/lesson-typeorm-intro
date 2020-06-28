@@ -1,0 +1,18 @@
+{
+  "name": "lesson-typeorm",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon -- -r esm index.js"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "pg": "^8.2.1",
+    "restify": "^8.5.1",
+    "typeorm": "^0.2.25"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
